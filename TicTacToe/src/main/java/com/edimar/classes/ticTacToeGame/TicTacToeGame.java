@@ -1,6 +1,6 @@
-package com.edimar.classes.TicTacToeGame;
+package com.edimar.classes.ticTacToeGame;
 
-import com.edimar.classes.TicTacToeBoard.TicTacToeBoard;
+import com.edimar.classes.ticTacToeBoard.TicTacToeBoard;
 
 public class TicTacToeGame extends TicTacToeBoard {
 

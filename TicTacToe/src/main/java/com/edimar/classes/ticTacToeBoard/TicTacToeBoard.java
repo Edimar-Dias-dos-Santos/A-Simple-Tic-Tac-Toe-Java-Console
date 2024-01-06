@@ -1,4 +1,4 @@
-package com.edimar.classes.TicTacToeBoard;
+package com.edimar.classes.ticTacToeBoard;
 
 public class TicTacToeBoard {
 
