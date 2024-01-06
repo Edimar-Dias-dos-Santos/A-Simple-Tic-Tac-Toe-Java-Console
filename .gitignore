@@ -1,0 +1,39 @@
+# Arquivos e diretórios específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretório específico do Visual Studio Code
+.vscode/
+
+# Arquivo de saída do nohup
+nohup.out
+
+# Arquivos de compilação e arquivos gerados pelo IDE
+/target/
+*.class
+*.iml
+
+# Logs e arquivos temporários
+/log/
+*.log
+*.log.*
+*.log.txt
+*.tmp
+
+# Arquivos de configuração específicos do IDE (por exemplo, IntelliJ IDEA)
+.idea/
+
+# Dependências e arquivos gerados pelo Maven
+/.m2/
+/maven/
+
+# Arquivos de configuração do Eclipse
+/.settings/
+*.launch
+
+# Arquivos de configuração do NetBeans
+/nbproject/
+
+# Arquivos específicos do sistema operacional ou editor
+/.DS_Store
+Thumbs.db
