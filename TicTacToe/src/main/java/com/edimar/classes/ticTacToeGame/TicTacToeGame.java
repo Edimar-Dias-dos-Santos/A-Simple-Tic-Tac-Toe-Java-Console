@@ -28,12 +28,9 @@ public class TicTacToeGame extends TicTacToeBoard {
             } else {
                 System.out.println("CPU wins! Better luck next time.");
             }
-            System.exit(0);
-
         }
         if (this.isBoardFull() && !this.isGameWon()) {
             System.out.println("Try once more, the game is Tied!");
-            System.exit(0);
         }
     }
 
