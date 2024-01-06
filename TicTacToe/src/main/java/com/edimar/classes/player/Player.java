@@ -26,6 +26,23 @@ public class Player {
 
     }
 
+    public boolean askToPlayAgain(Scanner scanner) {
+        char answer;
+        System.out.println("Do you want to play again? Type 'y' for yes or 'n' for no:");
+    
+        while (true) {
+            String userInput = scanner.next().toUpperCase();
+            if (userInput.equals("Y") || userInput.equals("N")) {
+                answer = userInput.charAt(0);
+                break;
+            } else {
+                System.out.println("Invalid input. Type 'y' for yes or 'n' for no:");
+            }
+        }
+    
+        return answer == 'Y';
+    }
+
     public void clearConsole() {
         try {
             final String os = System.getProperty("os.name");
